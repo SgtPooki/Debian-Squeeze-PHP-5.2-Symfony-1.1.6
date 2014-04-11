@@ -1,6 +1,5 @@
 #!/bin/bash
-# Setup (install) script for izento.com
-# This should be run after checking out the code from the repository
+
 echo "CD into php52 files dir"
 cd /var/www/puphpet/files/php52/
 echo "Running php52 install script"
