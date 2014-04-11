@@ -1,0 +1,9 @@
+Explanation: choose Lenny as installation source if the package is not already installed and not available from Squeeze
+Package: *
+Pin: release n=lenny*
+Pin-Priority: 100
+
+Explanation: choose Lenny as installation source for those packages
+Package: php5 php5-dev php-pear php5-intl php5-xdebug libapache2-mod-php5 php5-common php5-curl php5-gd php5-mcrypt php5-mysql php5-cli php5-mhash php5-xsl php5-imap php5-xmlrpc php5-sqlite php5-xsl
+Pin: release n=lenny*
+Pin-Priority: 999
